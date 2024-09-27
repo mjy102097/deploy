@@ -13,7 +13,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 
       - uses: action/checkout@v3
       - name: show directory
         run : |
